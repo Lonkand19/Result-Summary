@@ -107,6 +107,7 @@ main .summary button:hover {
     align-items: center;
     background-color: #fff;
     margin: 284px 352px;
+    border-radius: 0 32px 32px 0;
   }
   main .result {
     padding: 8% 0;
