@@ -55,4 +55,77 @@ main .result p {
   font-size: 16px;
   font-weight: 500;
   padding: 8px 57px 40px 57px;
+}
+main .summary {
+  margin: 0 30px;
+}
+main .summary h3 {
+  color: rgb(48, 59, 89);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 24px 0 24px 2px;
+}
+main .summary .row-summary {
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 16px 0;
+  padding: 18px 16px;
+  font-size: 16px;
+  font-weight: 500;
+}
+main .summary .row-summary .badge {
+  display: flex;
+  align-items: center;
+}
+main .summary .row-summary .badge img {
+  margin-right: 17px;
+}
+main .summary button {
+  display: flex;
+  margin-top: 8px;
+  width: 315px;
+  justify-content: center;
+  padding: 17px 0 16px 0;
+  background: #303B59;
+  border-radius: 128px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+}
+main .summary button:hover {
+  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+
+.bgreaction {
+  background-color: #FFF6F6;
+}
+
+.reaction {
+  color: rgb(255, 85, 85);
+}
+
+.memory {
+  color: rgb(0, 187, 143);
+}
+
+.visual {
+  color: rgb(255, 178, 30);
+}
+
+.verbal {
+  color: rgb(17, 37, 214);
+}
+
+.bgmemory {
+  background-color: #F2FCF9;
+}
+
+.bgvisual {
+  background-color: #FFFBF4;
+}
+
+.bgverbal {
+  background-color: #F3F4FD;
 }/*# sourceMappingURL=style.css.map */
