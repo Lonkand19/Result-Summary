@@ -89,13 +89,28 @@ main {
             cursor: pointer;
             font-size: 18px;
             font-weight: 700;
+            border: 0;
             &:hover{
                 background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
             }
          }
         }
 }
-
+@media screen and (min-width:1440px){
+    main{
+        display: flex;
+        justify-content: center;
+        max-width: 736px;
+        align-items: center;
+        background-color: #fff;
+        margin: 284px 352px;
+        &  .result{
+            padding: 8% 0;
+            border-radius: 32px; 
+        }
+        
+}
+}
 .bgreaction{
     background-color: #FFF6F6;
 }
